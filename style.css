@@ -1,0 +1,11 @@
+body {
+    background-image: url('./pictures/elden%20ring.jpg');
+    background-size: cover;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
