@@ -1,5 +1,5 @@
 body {
-    background-image: url('./pictures/elden%20ring.jpg');
+    background-image: url('./pictures/ice\ and\ fire.png');
     background-size: cover;
     background-color: #ffffff;
     display: flex;
@@ -8,4 +8,46 @@ body {
     align-items: center;
     position: relative;
     overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+.section-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #333;
+}
+
+.boxed-4 {
+    margin-bottom: 20px;
+}
+
+.link-window {
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin: 10px 0;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.link-window h3 {
+    margin: 10px 0;
+}
+
+.link-window a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link-window a:hover {
+    text-decoration: underline;
+}
+
+.logo-wrapper {
+    margin: 20px 0;
 }
